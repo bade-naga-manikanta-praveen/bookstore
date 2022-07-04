@@ -1,0 +1,398 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(241, 241, 121);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d4d7de;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.navbar img{
+    margin-left: 10%;
+    width: 9%;
+}
+
+.nav a{
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+.nav a :hover{
+    color: #000;
+}
+
+.bannerarea{
+    position: relative;
+    background-image: url(imges/bg\ image.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #adddad; */
+}
+.textbox{
+    position: relative;
+    max-width: 600px;
+    padding: 46px;
+}
+h2{
+   
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+.content .textbox p{
+    color: #333;
+    font-size: 1.5em;
+}
+.btn{
+    background-color: black;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.imgbox{
+   width:600px;
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 50px;
+   margin-top: 50px;
+}
+.imgbox img{
+    max-width: 515px;
+}
+
+/* best selling books */
+
+#bsbpara1{
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: bold;
+    padding:0px 50px;
+}
+#bsbpara2{
+    font-size: 1.5em;
+    color: #333;
+    padding:0px 50px;
+}
+
+
+
+.cards{
+    display: inline-block;
+    width: 20%;
+    background-color:  #0a0a0a;
+    color: white;
+    border-radius: 5px;
+    margin: 50px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.title1{
+   text-align: center;
+   padding: 5px;
+}
+.des{
+    text-align: center;
+    padding: 4px;
+}
+.butn{
+    background-color: white;
+    border: 1px solid black; 
+     padding: 5px;
+     border-radius: 5px;}
+.uttonn{
+    /* float: left; */
+    background-color: white;
+    border: 1px solid black; 
+    padding: 5px;
+    border-radius: 5px;
+}
+.uttonn:hover{
+    color: rgb(1, 84, 1);
+    background-color: rgb(178, 244, 178);
+}
+#btn1{
+    margin-left: 221px;
+}
+/* #btn2:visited{
+    
+} */
+#btn3{
+    margin-left: 190px;
+}
+#btn1:hover{ 
+   
+    background-color: palevioletred;
+    color: rgb(0, 238, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#btn3:hover{ 
+    
+    background-color: palevioletred;
+    color: rgb(0, 238, 255);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#btn4{
+    margin-left: 196px;
+}
+#btn5{
+    margin-left: 190px;
+}
+#btn4:hover{ 
+    background-color: palevioletred;
+    color: rgb(0, 238, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#btn5:hover{ 
+    background-color: palevioletred;
+    color: rgb(0, 238, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#rspara1{
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: bold;
+    padding:0px 50px;
+}
+#rspara2{
+    font-size: 1.5em;
+    color: #333;
+    padding:0px 50px;
+}
+
+.search1 {
+    width: 95%;
+    height: 35px;
+    margin: 13px 0px;
+}
+.search1:hover{
+    color: white;
+    background-color: black;
+}
+.search{
+    padding:0px 50px ;
+}
+
+#respara1{
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: bold;
+    padding:0px 50px;
+}
+
+.cards1{
+    
+    width: 20%;
+    background-color:  #0a0a0a;
+    color: white;
+    border-radius: 5px;
+    margin: 50px;
+    box-shadow: 2px 2px 10px black;
+}
+ .form{
+    
+    position: relative;
+    left: 500px;
+    bottom: 1445px;
+    border: 2px solid green;
+    margin:2px 2px;
+    padding: 2px 2px;
+    width:56%;
+    height: 500px;
+    border-radius: 10px;
+ }
+
+ #formpara1{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ #formpara2{
+    font-size: 1.5em;
+    text-align: center;
+ }
+
+ .formgroup input{
+      text-align: center;
+      display: block;
+      width:603px;
+      padding: 1px;
+      border: 2px solid black;
+      margin: 11px auto;
+      border-radius: 8px;
+      font-size: 1.5em;
+
+ }
+
+.form button{
+    display: block;
+    width: 18%;
+    padding: 8px;
+    margin: auto;
+    background-color: white;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.sub{
+    border-radius: 10px;
+}
+
+#review{
+    height: 125px;
+}
+
+.form{
+    color: white;
+    background-color: black;
+}
+
+
+
+.container{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+.foot{
+    box-sizing: border-box;
+   background-color: #24262b;
+   padding: 70px 0px;
+   line-height: 1.5;
+}
+
+.footercol{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footercol h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+#about{
+    position: relative;
+    left: 69px;
+}
+
+.footercol ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footercol ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footercol .social a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255,255, 0.2);
+    margin-right:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+
+}
+
+.footercol .social a:hover{
+    color: #24262b;
+    background-color:white ;
+
+}
+
+.backbutton{
+    position: relative;
+    top: 20px;
+    background-color:white;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.backbutton a{
+    color: black;
+    text-decoration: none;
+}
